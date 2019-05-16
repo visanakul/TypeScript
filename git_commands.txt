@@ -1,0 +1,22 @@
+1)  Create LocalRepo : git clone https://github.com/visanakul/TypeScript.git
+2)  git status
+3)  Add Files/Folders
+	a)git add --a
+	b)git add file
+	c)git add file1,file2
+	d)git add *
+4)  git commit -m "Message"
+5)  git push
+6)  Create new branch
+	a)Local Branch : git checkout -b newbranch
+	b)Create new Remote Branch :git push -u origin newbranch
+7)  change or switch branch : git checkout branchname
+8)  List Branches :
+	a)Local Branches : git branch
+	b)All Branches : git branch -a
+	c)Remote branches : git branch -r
+9) Delete branches
+	a)Local branch : git branch -d branchname
+	b)Remote branch : git push origin --delete branchname
+10) git log
+11) Update Local repo : git pull https://github.com/visanakul/TypeScript.git
